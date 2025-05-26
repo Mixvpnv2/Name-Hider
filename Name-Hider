@@ -4,7 +4,7 @@ if not getgenv().Config then
     
     FakeDisplayName = "c00lkidd",
     FakeName = "c00lkidd",
-    FakeId = 1438000142,
+    FakeId = 4457383563,
 }
 end
 
