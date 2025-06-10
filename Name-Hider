@@ -8,6 +8,7 @@ if not getgenv().Config then
 }
 end
 
+local players = game:GetService('Workspace')
 local players = game:GetService('Players')
 
 function disguisechar(char, id)
