@@ -3,8 +3,8 @@ if not getgenv().Config then
     Headless = false,
     
     FakeDisplayName = "c00lkidd",
-    FakeName = "c00lkidd",
-    FakeId = 3066641445,
+    FakeName = "???",
+    FakeId = 7655248946,
 }
 end
 
@@ -53,14 +53,6 @@ function disguisechar(char, id)
 				until v.Parent == game
 			end
 		end)
-		for i, v in pairs(disguiseclone:WaitForChild("Animate"):GetChildren()) do
-			v:SetAttribute("Disguise", true)
-			local real = char.Animate:FindFirstChild(v.Name)
-			if v:IsA("StringValue") and real then
-				real.Parent = game
-				v.Parent = char.Animate
-			end
-		end
 		for i, v in pairs(disguiseclone:GetChildren()) do
 			v:SetAttribute("Disguise", true)
 			if v:IsA("Accessory") then
